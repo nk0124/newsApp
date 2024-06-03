@@ -21,5 +21,5 @@ export class NewsService {
    return this.http.get<any>(this.url1+"&q="+q)
 }
 
-  // news component <-> news service <-> newsapi.org(api)
+  
 }
