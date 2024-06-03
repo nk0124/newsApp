@@ -1,0 +1,20 @@
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-6" *ngFor="let news of newsData">
+            <div class="card">
+                <img [src]="news.urlToImage" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{news.title}}</h5>
+                  <p class="card-text">Published On :{{news.publishedAt |date :'medium'}}
+                    By :{{news.author}}
+                  </p>
+                  <a [href]="news.url"  target="_blank" class="btn btn-primary">Read full Atricles</a>
+                </div>
+              </div>
+
+        </div>
+
+    </div>
+
+</div>
+
