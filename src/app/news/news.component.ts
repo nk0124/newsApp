@@ -3,9 +3,9 @@ import { NewsService } from '../news.service';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 
-// activetedroute je url ko padhta hai 
 
-// first step how the work of header / routes .ts / components / 
+
+
 @Component({
   selector: 'app-news',
   standalone: true,
